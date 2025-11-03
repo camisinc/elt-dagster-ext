@@ -2,10 +2,10 @@
 name = "dagster-ext"
 version = "0.2.0"
 description = "`dagster-ext` is a Meltano utility extension."
-authors = ["Camis"]
+authors = ["Quantile Development"]
 license = "Apache 2.0"
 readme = "README.md"
-homepage = "https://github.com/joshua-janicas/dagster-ext"
+homepage = "https://github.com/quantile-development/dagster-ext"
 packages = [
     { include = "dagster_ext" },
     { include = "files_dagster_ext" },
