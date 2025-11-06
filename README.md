@@ -1,8 +1,8 @@
 # Meltano Dagster Extention
 
-[![PyPI version](https://badge.fury.io/py/camis-dagster-ext.svg)](https://badge.fury.io/py/camis-dagster-ext)
+[![PyPI version](https://badge.fury.io/py/elt-dagster-ext.svg)](https://badge.fury.io/py/elt-dagster-ext)
 
-This project uses [`camis-dagster-meltano`](https://github.com/camisinc/camis-dagster-meltano) under the hood. Forked from the original repo that was from [Quantile Devlopment](https://github.com/quantile-development/dagster-ext); with a special thanks to [Jules Huisman](https://github.com/JulesHuisman) for the maintenance of that repo.
+This project uses [`elt-dagster-meltano`](https://github.com/camisinc/elt-dagster-meltano) under the hood. Forked from the original repo that was from [Quantile Devlopment](https://github.com/quantile-development/dagster-ext); with a special thanks to [Jules Huisman](https://github.com/JulesHuisman) for the maintenance of that repo.
 
 
 ## Features
@@ -17,7 +17,7 @@ This project uses [`camis-dagster-meltano`](https://github.com/camisinc/camis-da
 ## Installation
 
 ```sh
-# Add the dagster-ext to your Meltano project
+# Add the elt-dagster-ext to your Meltano project
 meltano add utility dagster
 
 # Initialize your Dagster project

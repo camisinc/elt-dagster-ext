@@ -184,7 +184,7 @@ class Dagster(ExtensionBase):
             yield f"{env_variable}='{self.get_env_value(env_variable)}'"
 
     def deploy(self, root: str, python_file: str, docker_file: str, location_name: str) -> None:
-        pre_build_image_name = "camis-dagster-meltano"
+        pre_build_image_name = "elt-dagster-meltano"
         docker_invoker = self.get_invoker_by_name("docker")
         dagster_cloud_invoker = self.get_invoker_by_name("cloud")
         env_flags = self.env_flags(self.cloud_env_variables)
