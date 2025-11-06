@@ -581,24 +581,6 @@ starlette = "*"
 test = ["dagster-test"]
 
 [[package]]
-name = "dagster-meltano"
-version = "1.6.0"
-description = "A dagster plugin that allows you to run your Meltano project inside Dagster."
-optional = false
-python-versions = ">=3.9,<3.14"
-files = []
-develop = false
-
-[package.dependencies]
-dagster = ">=1.10,<2"
-
-[package.source]
-type = "git"
-url = "https://github.com/joshua-janicas/dagster-meltano.git"
-reference = "menzenski-shellChanges"
-resolved_reference = "88842c442cea33e9272a71aa3cb7580be6e3bf46"
-
-[[package]]
 name = "dagster-pipes"
 version = "1.12.0"
 description = "Toolkit for Dagster integrations with transform logic outside of Dagster"
@@ -874,6 +856,20 @@ files = [
 dev = ["pre-commit (>=2.16.0)", "pydoctor (>=25.4.0)", "pytest"]
 docs = ["pydoctor (>=25.4.0)"]
 test = ["pytest"]
+
+[[package]]
+name = "elt-dagster-meltano"
+version = "1.0.0"
+description = "A dagster plugin that allows you to run your Meltano project inside Dagster."
+optional = false
+python-versions = "<3.14,>=3.9"
+files = [
+    {file = "elt_dagster_meltano-1.0.0-py3-none-any.whl", hash = "sha256:f2ad2025de4f34e67ee6ee42b1bf89ae8e2d5777d956359894f84d50ef0300c5"},
+    {file = "elt_dagster_meltano-1.0.0.tar.gz", hash = "sha256:a8b180a193ff18acacca6942a569928dc10f5e3e8a99eac7e4c608b55704b5eb"},
+]
+
+[package.dependencies]
+dagster = ">=1.10,<2"
 
 [[package]]
 name = "exceptiongroup"
@@ -3933,4 +3929,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "<3.14,>=3.9"
-content-hash = "27ada617f1b3db5eab0889014cc1f3584a9cf03edae41f495b00acf47d7f1290"
+content-hash = "51d076fd4533eea670dd8c92be88936bbf04da193d1ef52cdcd2116f0bfc18c2"
