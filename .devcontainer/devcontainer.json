@@ -1,5 +1,5 @@
 {
-  "name": "dagster-ext",
+  "name": "elt-dagster-ext",
   "image": "ghcr.io/quantile-development/vscode-python-base:3.8",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:1": {},
@@ -19,7 +19,7 @@
     "waderyan.gitblame",
     "esbenp.prettier-vscode"
   ],
-  "postCreateCommand": "poetry config virtualenvs.in-project true && poetry install && git config --global --add safe.directory /workspaces/dagster-ext",
+  "postCreateCommand": "poetry config virtualenvs.in-project true && poetry install && git config --global --add safe.directory /workspaces/elt-dagster-ext",
   "remoteUser": "root",
   "runArgs": ["--env-file", ".devcontainer/.env"]
 }

@@ -1,5 +1,5 @@
 {
-  "python.analysis.extraPaths": ["/workspaces/dagster-ext"],
+  "python.analysis.extraPaths": ["/workspaces/elt-dagster-ext"],
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
