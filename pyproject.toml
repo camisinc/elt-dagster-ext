@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "elt-dagster-ext"
-version = "1.0.1"
+version = "1.0.2"
 description = "`elt-dagster-ext` is a Meltano utility extension."
 authors = ["Camis Inc"]
 license = "Apache 2.0"
